@@ -18,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
@@ -29,5 +31,5 @@
     "eslint-plugin-react": "^7.11.1",
     "jsdoc": "^3.5.5"
   },
-  "homepage" : "http://Ryryka.github.io/react-app"
+  "homepage" : "http://ryryka.github.io/react-app"
 }
